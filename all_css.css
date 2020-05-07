@@ -71,39 +71,69 @@ section {
 
 responsive font size */
  h1 {font-size:1.5rem;} 
+ h2{font-size:0.8rem;}
  h3{font-size:0.8rem;}
+ h4 {font-size:0.75rem;}  
+
+
+ 
                 @media (min-width: 544px){  
                     h1 {font-size:1.5rem;}
+                    h2 {font-size:1.2rem;}
                     h3 {font-size:1rem;}
+                    h4 {font-size:0.85rem;}
                 }
 
                 }
                 @media (min-width: 768px) {  
                     h1 {font-size:2.5rem;}
-                    h3 {font-size:1.3rem;}  
+                    h2 {font-size:2rem;}
+                    h3 {font-size:1rem;}  
+                    h4 {font-size:0.85rem;}  
                 }
 
                 @media (min-width: 992px) {  
                     h1 {font-size:3rem;}  
-                    h3 {font-size:1.3rem;}  
+                    h2 {font-size:2rem;} 
+                    h3 {font-size:1.3rem;} 
+                    h4 {font-size:1rem;}  
+
                 }
 
                 @media (min-width: 1200px)  {  
                     h1 {font-size:3rem;}
-                    h3 {font-size:1.3rem;}    
+                    h2 {font-size:2rem;} 
+                    h3 {font-size:1.3rem;} 
+                    h4 {font-size:1rem;}  
+
                 }
 
                   @media (min-width: 1680px)  {  
                     h1 {font-size:3rem;}  
-                    h1 {font-size:1.3rem;}                     
+                    h2 {font-size:2rem;} 
+                    h3 {font-size:1.3rem;}  
+                    h4 {font-size:1rem;}  
+
                 }
 
 
 
  
 
-          
+
+.gradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4,195,187,1.0)), to(rgba(0,0,0,0.0)));
+}
 
 
+.button-shadow--16dp {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2)
+}
 
-
+div.card {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background: #04C3BB;
+  /* background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(4,195,187,0.5)), from(rgba(5, 78, 99,1.0))); */
+}
