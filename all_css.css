@@ -1,0 +1,109 @@
+html,
+body {
+  height: 100%;
+}
+
+.first {
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+  background-image: white;
+  background-position: top center;
+}
+
+.affix {
+  background-color: transparent;
+  -webkit-transition: padding 0.2s ease-out;
+  -moz-transition: padding 0.2s ease-out;
+  -o-transition: padding 0.2s ease-out;
+  transition: padding 0.2s ease-out;
+}
+
+@media (min-width: 768px) {
+  .affix-top {
+    /* navbar style at top */
+    background-color: transparent;
+    border-color: transparent;
+    padding: 15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: fixed;
+  }
+}
+
+nav .navbar-nav .nav-link,
+nav .navbar-brand {
+  color: #000;
+}
+
+section {
+  height: calc(90% - 50px);
+  height: 90vh;
+}
+
+.nav_font {
+  font-family: "Calibri";
+  font-style: Calibri;
+  font-weight: lighter;
+}
+
+.centered_1 {
+ 
+  color: #054e63;
+  font-family: "Calibri";
+  font-style: Calibri;
+  font-weight: lighter;
+  /* transform: translate(-50%, -50%); */
+}
+
+.centered_1_1 {
+  color: #054e63;
+  font-size: 20px;
+  font-family: "Calibri";
+  font-style: Calibri;
+  font-weight: lighter;
+  /* transform: translate(-50%, -50%); */
+}
+
+/* 
+
+responsive font size */
+ h1 {font-size:1.5rem;} 
+ h3{font-size:0.8rem;}
+                @media (min-width: 544px){  
+                    h1 {font-size:1.5rem;}
+                    h3 {font-size:1rem;}
+                }
+
+                }
+                @media (min-width: 768px) {  
+                    h1 {font-size:2.5rem;}
+                    h3 {font-size:1.3rem;}  
+                }
+
+                @media (min-width: 992px) {  
+                    h1 {font-size:3rem;}  
+                    h3 {font-size:1.3rem;}  
+                }
+
+                @media (min-width: 1200px)  {  
+                    h1 {font-size:3rem;}
+                    h3 {font-size:1.3rem;}    
+                }
+
+                  @media (min-width: 1680px)  {  
+                    h1 {font-size:3rem;}  
+                    h1 {font-size:1.3rem;}                     
+                }
+
+
+
+ 
+
+          
+
+
+
+
