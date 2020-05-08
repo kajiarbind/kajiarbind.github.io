@@ -1,6 +1,10 @@
-html,
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   height: 100%;
+  margin-bottom: 300px;
 }
 
 .first {
@@ -50,7 +54,6 @@ section {
 }
 
 .centered_1 {
- 
   color: #054e63;
   font-family: "Calibri";
   font-style: Calibri;
@@ -70,70 +73,172 @@ section {
 /* 
 
 responsive font size */
- h1 {font-size:1.5rem;} 
- h2{font-size:0.8rem;}
- h3{font-size:0.8rem;}
- h4 {font-size:0.75rem;}  
-
-
- 
-                @media (min-width: 544px){  
-                    h1 {font-size:1.5rem;}
-                    h2 {font-size:1.2rem;}
-                    h3 {font-size:1rem;}
-                    h4 {font-size:0.85rem;}
-                }
-
-                }
-                @media (min-width: 768px) {  
-                    h1 {font-size:2.5rem;}
-                    h2 {font-size:2rem;}
-                    h3 {font-size:1rem;}  
-                    h4 {font-size:0.85rem;}  
-                }
-
-                @media (min-width: 992px) {  
-                    h1 {font-size:3rem;}  
-                    h2 {font-size:2rem;} 
-                    h3 {font-size:1.3rem;} 
-                    h4 {font-size:1rem;}  
-
-                }
-
-                @media (min-width: 1200px)  {  
-                    h1 {font-size:3rem;}
-                    h2 {font-size:2rem;} 
-                    h3 {font-size:1.3rem;} 
-                    h4 {font-size:1rem;}  
-
-                }
-
-                  @media (min-width: 1680px)  {  
-                    h1 {font-size:3rem;}  
-                    h2 {font-size:2rem;} 
-                    h3 {font-size:1.3rem;}  
-                    h4 {font-size:1rem;}  
-
-                }
-
-
-
- 
-
-
-.gradient {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4,195,187,1.0)), to(rgba(0,0,0,0.0)));
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 0.8rem;
+}
+h3 {
+  font-size: 0.8rem;
+}
+h4 {
+  font-size: 0.75rem;
 }
 
+@media (min-width: 544px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1680px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+}
+
+.gradient {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(4, 195, 187, 1)),
+    to(rgb(77, 168, 115))
+  );
+}
 
 .button-shadow--16dp {
-    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2)
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.18),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 div.card {
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  background: #04C3BB;
+  background: #04c3bb;
   /* background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(4,195,187,0.5)), from(rgba(5, 78, 99,1.0))); */
 }
+
+div.card_1 {
+  width: 100%;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  text-align: center;
+  background: transparent;
+  /* background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(4,195,187,0.5)), from(rgba(5, 78, 99,1.0))); */
+}
+
+/* footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+  body {
+    margin-bottom: 500px;
+  }
+  .footer {
+    height: 500px;
+  }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #161616;
+  color: #bbb;
+}
+
+footer a {
+  color: rgb(82, 81, 81);
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  color: rgb(97, 96, 96);
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}
+
+footer .form-control {
+  background-color: #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  color: #6f7070;
+  padding: 0.7em 1em;
+}
+
+/* socal media */
