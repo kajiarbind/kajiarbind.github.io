@@ -171,6 +171,16 @@ h4 {
   );
 }
 
+.gradient_2 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(77, 168, 115)),
+    to(rgb(22, 22, 22))
+  );
+}
+
 .button-shadow--16dp {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.18),
     0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
@@ -216,7 +226,7 @@ div.card_1 {
 -------------------------------------------------- */
 footer {
   padding-top: 30px;
-  background-color: #161616;
+  background-color: #131312;
   color: #bbb;
 }
 
