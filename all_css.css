@@ -70,6 +70,15 @@ section {
   /* transform: translate(-50%, -50%); */
 }
 
+.centered_about_1 {
+  color: #000000;
+  font-size: 20px;
+  top: 30%;
+  font-family: "Calibri";
+  font-style: Calibri;
+  font-weight: lighter;
+  /* transform: translate(-50%, -50%); */
+}
 /* 
 
 responsive font size */
@@ -180,6 +189,34 @@ h4 {
     to(rgb(22, 22, 22))
   );
 }
+.gradient_about_1 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(139, 189, 73)),
+    to(rgb(139, 189, 73))
+  );
+}
+.gradient_about_2 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(139, 189, 73)),
+    to(rgb(235, 235, 235))
+  );
+}
+
+.gradient_about_3 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(235, 235, 235)),
+    to(rgb(235, 236, 131))
+  );
+}
 
 .button-shadow--16dp {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.18),
@@ -199,6 +236,13 @@ div.card_1 {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   text-align: center;
   background: transparent;
+  /* background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(4,195,187,0.5)), from(rgba(5, 78, 99,1.0))); */
+}
+div.card_about {
+  width: 100%;
+  box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background: #000000;
   /* background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(4,195,187,0.5)), from(rgba(5, 78, 99,1.0))); */
 }
 
@@ -225,9 +269,9 @@ div.card_1 {
 /* Sticky footer style and color
 -------------------------------------------------- */
 footer {
-  padding-top: 30px;
+  padding-top: 40px;
   background-color: #131312;
-  color: #bbb;
+  color: rgb(150, 148, 148);
 }
 
 footer a {
@@ -251,4 +295,6 @@ footer .form-control {
   padding: 0.7em 1em;
 }
 
-/* socal media */
+/* End of Sticky footer style and color */
+
+/* Fliping the profile card */
