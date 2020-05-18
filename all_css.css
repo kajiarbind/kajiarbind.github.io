@@ -204,7 +204,7 @@ h4 {
     left top,
     left bottom,
     from(rgb(139, 189, 73)),
-    to(rgb(235, 235, 235))
+    to(rgb(215, 229, 188))
   );
 }
 
@@ -213,8 +213,17 @@ h4 {
     linear,
     left top,
     left bottom,
-    from(rgb(235, 235, 235)),
+    from(rgb(215, 229, 188)),
     to(rgb(235, 236, 131))
+  );
+}
+.gradient_projects_1 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(151, 116, 155)),
+    to(rgb(218, 218, 218))
   );
 }
 
@@ -239,6 +248,14 @@ div.card_1 {
   /* background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(4,195,187,0.5)), from(rgba(5, 78, 99,1.0))); */
 }
 div.card_about {
+  width: 100%;
+  box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background: #000000;
+  /* background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(4,195,187,0.5)), from(rgba(5, 78, 99,1.0))); */
+}
+
+div.card_projects {
   width: 100%;
   box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
